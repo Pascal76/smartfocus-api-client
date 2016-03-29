@@ -1,0 +1,14 @@
+{
+  "name": "l0rd59/smartfocus-api-php-client",
+  "license": "MIT",
+  "type": "library",
+  "description": "PHP Client for Smartfocus API",
+  "require":
+	{
+		"guzzlehttp/guzzle-services":"dev-master",
+		"guzzlehttp/log-subscriber":"1.0.1"
+	},
+  	"autoload": {
+	  "psr-4": {"L0rD59\\Smartfocus\\" : "src/"}
+	}
+}
