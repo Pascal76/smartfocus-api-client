@@ -12,7 +12,7 @@ require_once 'vendor/autoload.php';
 
 $smartfocusClient = new \L0rD59\Smartfocus\Client();
 
-$token = $smartfocusClient->getToken([
+$openConnection = $smartfocusClient->openConnection([
   'username' => 'YOUR_SMARTFOCUS_USERNAME',
   'password' => 'YOUR_SMARTFOCUS_PASSWORD',
   'apiKey' => 'YOUR_SMARTFOCUS_APIKEY',
@@ -20,12 +20,12 @@ $token = $smartfocusClient->getToken([
 
 $members = $smartfocusClient->getMembers([
   'memberUID' => 'EMAIL:member@mail.com',
-  'token' => $token['result'],
+  'token' => $openConnection['result'],
 ]);
 
 $updateMember = $smartfocusClient->updateMember([
   'memberUID' => 'EMAIL:member@mail.com',
-  'token' => $token['result'],
+  'token' => $openConnection['result'],
   'dynContent' => [['key' => 'TITLE','value' => 'Mr.']]
 ]);
 ```
