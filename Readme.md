@@ -10,7 +10,7 @@ Usage
 
 require_once 'vendor/autoload.php';
 
-$smartfocusClient = new \L0rD59\Smartfocus\Client();
+$smartfocusClient = new \Pascal76\Smartfocus\Client();
 
 $openConnection = $smartfocusClient->openConnection([
   'username' => 'YOUR_SMARTFOCUS_USERNAME',
