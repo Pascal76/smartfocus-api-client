@@ -1,5 +1,5 @@
 {
-  "name": "l0rd59/smartfocus-api-php-client",
+  "name": "Pascal76/smartfocus-api-php-client",
   "license": "MIT",
   "type": "library",
   "description": "PHP Client for Smartfocus API",
@@ -8,6 +8,6 @@
 		"guzzlehttp/guzzle-services":"^1"
 	},
   	"autoload": {
-	  "psr-4": {"L0rD59\\Smartfocus\\" : "src/"}
+	  "psr-4": {"Pascal76\\Smartfocus\\" : "src/"}
 	}
 }
