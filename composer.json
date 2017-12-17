@@ -5,8 +5,7 @@
   "description": "PHP Client for Smartfocus API",
   "require":
 	{
-		"guzzlehttp/guzzle-services":"dev-master",
-		"guzzlehttp/log-subscriber":"1.0.1"
+		"guzzlehttp/guzzle-services":"^1"
 	},
   	"autoload": {
 	  "psr-4": {"L0rD59\\Smartfocus\\" : "src/"}
