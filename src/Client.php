@@ -1,6 +1,6 @@
 <?php
 
-namespace L0rD59\Smartfocus;
+namespace Pascal76\Smartfocus;
 
 use GuzzleHttp\Command\Guzzle\GuzzleClient;
 
